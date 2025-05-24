@@ -1,0 +1,26 @@
+{
+  "name": "discord-command-simplifier",
+  "version": "1.0.0",
+  "description": "A package used to facilitate the discord bot creation process",
+  "main": "./dist/commandSimplifier.js",
+  "types": "./dist/commandSimplifier.d.ts",
+  "scripts": {
+    "buildDemo": "tsc -p ./demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinhum44/discord-command-simplifier.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Martin Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinhum44/discord-command-simplifier/issues"
+  },
+  "homepage": "https://github.com/Martinhum44/discord-command-simplifier#readme",
+  "dependencies": {
+    "discord.js": "^14.19.3"
+  }
+}
